@@ -1,7 +1,7 @@
-import LiftingStateUp from "./topics/05-lifting-state-up/index.tsx";
+import TodoApp from "./projects/todo-app";
 
 function App() {
-	return <LiftingStateUp />;
+	return <TodoApp />;
 }
 
 export default App;
