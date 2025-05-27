@@ -1,7 +1,7 @@
-import States from "./topics/04-states/index.tsx";
+import LiftingStateUp from "./topics/05-lifting-state-up/index.tsx";
 
 function App() {
-    return <States />;
+    return <LiftingStateUp />;
 }
 
 export default App;
