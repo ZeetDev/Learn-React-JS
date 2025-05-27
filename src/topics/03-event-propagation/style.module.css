@@ -1,0 +1,24 @@
+.wrapper {
+    height: 100svh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    button {
+        padding: 20px;
+        border: 4px solid #000;
+        display: block;
+    }
+
+    .parent {
+        background: hotpink;
+    }
+
+    .middle {
+        background: salmon;
+    }
+
+    .child {
+        background: deepskyblue;
+    }
+}
