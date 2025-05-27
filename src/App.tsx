@@ -1,7 +1,7 @@
-import style from "./App.module.css";
+import LiftingStateUp from "./topics/05-lifting-state-up/index.tsx";
 
 function App() {
-	return <div className={style["app-bg"]}>App</div>;
+	return <LiftingStateUp />;
 }
 
 export default App;

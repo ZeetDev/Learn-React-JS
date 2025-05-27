@@ -1,9 +1,8 @@
 // you can add condition directly using if
 const AgeComponent = ({
 	age,
-}: {
-	age: number;
-}) => {
+	onClick,
+}: { age: number; onClick: () => void }) => {
 	if (age < 20) {
 		return (
 			<h1>
@@ -13,9 +12,9 @@ const AgeComponent = ({
 	}
 
 	return (
-		<h1>
+		<button type="button" onClick={onClick}>
 			Your Age Is <strong>{age}</strong> You Are Grater Then <strong>20</strong>
-		</h1>
+		</button>
 	);
 };
 
@@ -34,9 +33,13 @@ const ColorComponent = ({ color }: { color: string }) => {
 };
 
 function ConditionalRendering() {
+	function handleShowMessage(message: string) {
+		alert(message);
+	}
+
 	return (
 		<div>
-			<AgeComponent age={80} />
+			<AgeComponent age={80} onClick={() => handleShowMessage("Hello Word")} />
 			<ColorComponent color="red" />
 		</div>
 	);
