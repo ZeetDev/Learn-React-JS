@@ -1,11 +1,7 @@
-import EventPropagation from "./topics/03-event-propagation/index.tsx"
+import States from "./topics/04-states/index.tsx";
 
 function App() {
-    return (
-        <div>
-            <EventPropagation />
-        </div>
-    );
+    return <States />;
 }
 
 export default App;
