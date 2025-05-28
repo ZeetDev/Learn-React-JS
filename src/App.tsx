@@ -1,7 +1,7 @@
-import TodoApp from "./projects/todo-app";
+import ControlledUnControlledForm from "./topics/06-controlled-uncontrolled-form"
 
 function App() {
-	return <TodoApp />;
+    return <ControlledUnControlledForm/>;
 }
 
 export default App;
