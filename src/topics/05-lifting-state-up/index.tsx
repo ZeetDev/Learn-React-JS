@@ -3,6 +3,7 @@ import { useState } from "react";
 // Child Component that Pass State to Parent Component
 function InputComponent({ inputValue, setInputValue }: { inputValue: string; setInputValue: (value: string) => void }) {
     // const [inputValue, setInputValue] = useState<string>(""); // ?? to state lift up define child component state into parent and pass that state via props to child
+
     return (
         <>
             <input
